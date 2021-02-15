@@ -16,7 +16,7 @@ const App = () => {
           avatar={user.avatar}
           stats={user.stats}
          />
-         <Statistics value={statistic}/>
+         <Statistics title='Upload statistic' stats={statistic}/>
        </>
     </div>
   );

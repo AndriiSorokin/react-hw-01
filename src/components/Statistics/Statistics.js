@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Statistics = ({ value}) => {
-  console.log(value);
+const Statistics = ({ title, stats }) => {
+  console.log(title);
+  console.log(stats);
   return (
     <div>
 
