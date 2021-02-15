@@ -1,6 +1,8 @@
 import React from 'react'
 import Profile from './components/Profile/Profile'
-import user from './components/Profile/Profile.json'
+import user from './components/Data/Profile.json'
+import statistic from './components/Data/Statistics.json'
+import Statistics from './components/Statistics/Statistics'
 
 
 const App = () => {
@@ -13,7 +15,8 @@ const App = () => {
           location={user.location}
           avatar={user.avatar}
           stats={user.stats}
-        />
+         />
+         <Statistics value={statistic}/>
        </>
     </div>
   );
