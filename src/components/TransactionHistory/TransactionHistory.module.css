@@ -1,0 +1,32 @@
+.transactionHistory {
+  margin: 0 auto;
+   width: 800px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+
+th {
+  width: 100px;
+  padding: 13px 13px;
+}
+
+
+.transactionHistoryItem {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+td {
+  width: 100px;
+  border: 1px solid black;
+  padding: 20px 20px;
+}
+
+td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,40 @@
+.statisticBlock {
+text-align: center;
+background: aqua;
+    width: 616px;
+    margin: 0 auto;
+}
+
+.title{
+  margin: 0;
+  padding-top: 7px;
+}
+.statisticList {
+      display: flex;
+    justify-content: center;
+      background-color: aqua;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+padding: 20px;
+  width: 616px;
+}
+
+
+.statisticsItem {
+  margin-right: 20px;
+}
+
+.statisticsItem:nth-child(odd) {
+  background-color: rgb(158, 103, 51);
+  padding: 10px;
+   border-radius: 8px;
+
+}
+
+.statisticsItem:nth-child(even) {
+  background-color: brown;
+   padding: 10px;
+  border-radius: 8px;
+}

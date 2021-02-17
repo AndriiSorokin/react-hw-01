@@ -1,12 +1,13 @@
 import React from 'react';
-import StatisticList from '../StatisticList/StatisticList';
+import StatisticList from './StatisticList';
+import style from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
 const Statistics = ({ title, stats }) => {
   return (
-    <div className="statistic-block">
-      <h2>{title}</h2>
-      <ul className="statistic-list">
+    <div className={style.statisticBlock}>
+      <h2 className={style.title}>{title}</h2>
+      <ul className={style.statisticList}>
         {stats.map(value => (
           <StatisticList key={value.id} {...value} />
         ))}
@@ -22,4 +23,3 @@ Statistics.propsType = {
 };
 
 export default Statistics;
-

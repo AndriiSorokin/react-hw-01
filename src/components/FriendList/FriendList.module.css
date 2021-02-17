@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+}
+
+.friendList {
+  justify-content: center;
+display: flex;
+margin-right: 53px;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin: auto 10px;
+  background-color: green;
+}
+
+.status-false {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin: auto 10px;
+  background-color: red;
+}
