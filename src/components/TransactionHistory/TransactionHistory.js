@@ -1,5 +1,5 @@
 import React from 'react';
-import TransactionList from './TransactionList';
+import TransactionItem from './TransactionList';
 import PropTypes from 'prop-types';
 import style from './TransactionHistory.module.css';
 
@@ -15,7 +15,7 @@ const TransactionHistory = ({ items }) => {
       </thead>
       <tbody>
         {items.map(value => (
-          <TransactionList key={value.id} {...value} />
+          <TransactionItem key={value.id} {...value} />
         ))}
       </tbody>
     </table>
