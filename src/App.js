@@ -7,6 +7,7 @@ import user from './components/Data/profile.json';
 import statistic from './components/Data/statistics.json';
 import friends from './components/Data/friends.json';
 import transaction from './components/Data/transaction.json';
+import 'modern-normalize/modern-normalize.css';
 
 const App = () => {
   return (

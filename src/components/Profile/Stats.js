@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Stats = ({ stats }) => {
   return (
     <li>
-      <span class="label">{stats.followers}</span>
-      <span class="quantity">{stats.views}</span>
+      <span>{stats.followers}</span>
+      <span>{stats.views}</span>
     </li>
   );
 };

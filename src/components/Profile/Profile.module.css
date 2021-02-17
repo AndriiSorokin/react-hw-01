@@ -1,0 +1,19 @@
+.profile {
+  background-color: aquamarine;
+  text-align: center;
+  width: 600px;
+margin: 0 auto;
+border: 6px solid orange;
+}
+
+
+.name {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.stats {
+  display: flex;
+justify-content: space-evenly;
+padding: 0;
+}
